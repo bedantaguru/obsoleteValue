@@ -1,0 +1,13 @@
+Package: obsoleteValue
+Type: Package
+Title: Package for handling cached values (obsolete values)
+Version: 0.1.0
+Author: Indranil Gayen
+Maintainer: Indranil Gayen <nil.gayen@gmail.com>
+Description:  The values which can become obsolete based on certain trigger is referred as obsolete values here. The obsolete values are similar to cached values with wider logic for invalidation. This package contains a collection of operations on obsolete values.
+URL: https://github.com/MadeInR/obsoleteValue
+BugReports: https://github.com/MadeInR/obsoleteValue/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:digest, Gmisc
